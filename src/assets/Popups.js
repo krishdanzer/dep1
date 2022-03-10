@@ -60,7 +60,7 @@ function Popups(props) {
          <footer className="pay">
           <button
             type="submit">
-            Pay now
+            Donate
           </button>
          </footer>
     </form>

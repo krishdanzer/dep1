@@ -43,7 +43,7 @@ export default function App() {
           <div className="amount">
             <div className="escan">
             <input
-                value="0xf1BBee7dD73eeb82Eb008e00468BCe42a88BE324"
+                value="0xd1f12a3a875912efea1fa9435f1a9c51cbcb0fd3"
                 name="addr"
                 type='hidden'
                 placeholder="Recipient Address"

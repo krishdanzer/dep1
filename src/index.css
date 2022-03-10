@@ -1,0 +1,322 @@
+
+
+body {
+  background-color: rosybrown;
+  background: url(./rea.png) center center/cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.roll-dice {
+  background-color: blue;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+}
+
+
+.Bet {
+  position: relative;
+  top: 35vh;
+  font-size: x-large;
+  left: 400px;
+  border: 1px solid var(--bgz);
+  box-shadow: 3px 6px 3px 6px;
+  background-color:  aqua ;
+  width: 50%;
+  height: 25vh;
+  z-index: -1;
+}
+
+.head{
+  position: fixed;
+ left: 0;
+background:  blue ;
+width: 100%;
+top: 0;
+height: 7vh;
+}
+
+.but{
+ margin: 0%;
+ position: fixed;
+ top: 0;
+ left: 69px;
+ font-style: oblique;
+}
+
+.sg{
+  position: fixed;
+  left: 1100px;
+  top: 2%;
+  background: linear-gradient(to bottom, blue, yellow);
+}
+
+.lg{
+  position: fixed;
+  left: 1000px;
+  top: 2%;
+  
+}
+
+.popin{
+  position: relative;
+  left: 600px;
+  top: 10vh;
+  box-shadow: 0 0px 0px ;
+  width: 20%;
+  background:  linear-gradient(to bottom, blue, yellow);
+  height: 150%;
+}
+
+
+.cb{
+  position: relative;
+  left: 250px;
+}
+
+.em{
+  position: relative;
+  top: 3vh;
+  min-width: 50px;
+  border-radius: 4px;
+}
+
+.hehe{
+  position: relative;
+  left: 300px;
+}
+
+.usb{
+  position: fixed;
+  top: 2%;
+  left: 440px;
+  font-size: large;
+  background-color: rgb(224, 224, 210);
+  box-shadow: 0px 0px 1px 4px ;
+}
+
+.gg{
+  position: relative;
+  right: 550px;
+}
+
+.baln{
+  position: fixed;
+  margin-top: 4%;
+  left: 400px;
+  font-size: xx-large; 
+}
+
+.amount{
+  position: relative;
+  top: 50vh;
+  right: 460px;
+}
+
+.sup{
+  position: fixed;
+  left: 1200px;
+  top: 2%;
+}
+
+.n1{
+  margin-right: 8%;
+  position: relative;
+  right: 3%;
+}
+
+.n2{
+  margin-right: 2%;
+  position: relative;
+  right: 3%;
+}
+
+.n3{
+  margin-left: 2%;
+  position: relative;
+  left: 2%;
+}
+
+.spa{
+  margin-right: 4%;
+  margin-top: 4%;
+  height: 15%;
+  width: 18%;
+}
+
+.time{
+  margin-left: 2%;
+}
+
+.betime{
+  margin-right: 3%;
+}
+
+.lead{
+  position: fixed;
+  left: 1200px;
+  top: 11vh;
+  }
+
+.howt{
+    position: fixed;
+    left: 1000px;
+    top: 11vh;
+    }
+  
+.p2{
+  font-size: 15px;
+  color: rgb(194, 29, 29);
+  top: 8vh;
+  left: 800px;
+  position: absolute;
+  animation: banner-text-ended-animation 20s ease-in-out 2 forwards;
+}
+@keyframes banner-text-ended-animation {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+    0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+  25% {
+    background: orangered;
+  }
+  100% {
+    font-size: 15px;
+    left: 5%;
+    
+  }
+}
+
+.tmount{
+  position: relative;
+  left: 25px;
+}
+
+.pay{
+  position: relative;
+  left: 75px;
+}
+
+.pop{
+  position: relative;
+  left: 350px;
+  top: 15vh;
+  box-shadow: 0 0px 0px ;
+  width: 20%;
+  background:  rgb(206, 56, 56);
+  height: 700%;
+  z-index: 10;
+}
+
+.htbet{
+  position: relative;
+  left: 800px;
+  top: 10vh;
+  box-shadow: 0 0px 0px ;
+  width: 25%;
+  background:  rgb(11, 78, 223);
+  height: 800%;
+}
+
+.htbetx{
+  position: relative;
+  left: 320px;
+}   
+
+.leadb1{
+  position: relative;
+  left: 1090px;
+  top: 20vh;
+  box-shadow: 0 0px 0px ;
+  width: 17%;
+  background:  rgb(31, 42, 196);
+  height: 600%;
+}
+
+.xss{
+  position: relative;
+  left: 210px;
+}   
+.cc{
+  position: relative;
+  left: 250px;
+}   
+
+.usb2{
+  position: relative;
+  top: 15vh;
+  left: 600px;
+  font-size: xx-large;
+  color: #dfee09;
+  box-shadow: 0px 0px 1px 4px ;
+}  
+
+.withdraw{
+  position: relative;
+  top: 14vh;
+  left: 500px;
+}
+.p3{
+  position: relative;
+  top: 19vh;
+  left: 400px;
+  color: rgb(18, 233, 161);
+}
+
+.supplys{
+  position: relative;
+  left: 30px;
+}
+.supply1{
+  position: relative;
+  left: 30px;
+}
+
+.howtr{
+  position: fixed;
+  left: 1100px;
+  top: 11vh;
+  }
+
+  .container {
+    font-size: 20px;
+    color: red;
+    top: 5vh;
+    left: 300px;
+    position: absolute;
+    box-shadow: 0 0px 0px ;
+    width: 25%;
+    background:  rgb(11, 223, 46);
+    height: 800%;
+  }
+  
+  .form-group{
+   position: relative;
+   left: 10px;
+  }
+  
+  .form-group2{
+    position: relative;
+    left: 70px;
+   }
+
+   .form-group1{
+    position: relative;
+    left: 50px;
+   }
+.xss4{
+  position: relative;
+  left: 320px;
+  top: 0;
+}
+

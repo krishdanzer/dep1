@@ -26,10 +26,8 @@ export default function Header() {
          <p1 className='usb'>
            ID:{user.attributes.ethAddress}</p1>
            )}
-        { user && (
-         <p2 className='usb2'>
-           Balance:00000{}</p2>
-           )}
+       <p2 className='usb2'>
+           Balance:2Eth</p2>
            <p3 className='p3' >minimum 1 eth</p3>
    
          <button className='withdraw' >withdraw</button>

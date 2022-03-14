@@ -1,10 +1,10 @@
 import RollDice from './components/RollDice';
 import React from 'react';
 import "./App.css";
-import Eth from './Eth'
+import Eth from './Eth';
 import Bet from './Bet';
 import Header from './Header';
-
+import Eth2 from './Eth2';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <RollDice/>
       <Bet/>
       <Eth/>
+      <Eth2/>
      </div>
     </>
   );

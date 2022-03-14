@@ -32,7 +32,7 @@ export default function Header() {
            )}
            
    
-         <button className='withdraw' >withdraw</button>
+        
         <button  onClick={() => setButtonpopup(true)} className='sg'>Donate</button>
         <Popups trigger={buttonpopup} setTrigger={setButtonpopup}> 
         

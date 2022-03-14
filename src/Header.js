@@ -26,11 +26,9 @@ export default function Header() {
          <p1 className='usb'>
            ID:{user.attributes.ethAddress}</p1>
            )}
-      { user && (
-         <p2 className='usb2'>
-           Balance:0.3{}</p2>
-           )}
-           
+     
+          <p2 className='usb2'>
+           Balance:0.3</p2> 
    
         
         <button  onClick={() => setButtonpopup(true)} className='sg'>Donate</button>

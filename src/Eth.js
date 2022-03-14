@@ -36,7 +36,6 @@ export default function App() {
     });
   };
   
-  const [lame, setLame] = useState();
 
   return (
     <form className="Eth" onSubmit={handleSubmit}>
@@ -51,15 +50,12 @@ export default function App() {
             </div>
             <div className="eths">
               <input
-                onChange={(e) => setLame(e.target.value>=0.05)}
                 name="ether"
                 type="text"
-                placeholder="Minimum 0.05"
               />
             </div>
          <footer className="bsi">
           <button
-            disabled={!lame}
             type="submit">
             Bet now
           </button>

@@ -52,6 +52,7 @@ export default function App() {
               <input
                 name="ether"
                 type="text"
+                 placeholder="Amount In Eth "
               />
             </div>
          <footer className="bsi">

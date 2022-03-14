@@ -28,7 +28,7 @@ export default function Header() {
            )}
       { user && (
          <p2 className='usb2'>
-           Balance:00000{}</p2>
+           Balance:0.3{}</p2>
            )}
            
    

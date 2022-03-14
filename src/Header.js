@@ -30,7 +30,7 @@ export default function Header() {
          <p2 className='usb2'>
            Balance:00000{}</p2>
            )}
-           <p3 className='p3' >minimum 1 eth</p3>
+           
    
          <button className='withdraw' >withdraw</button>
         <button  onClick={() => setButtonpopup(true)} className='sg'>Donate</button>

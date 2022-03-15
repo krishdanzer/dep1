@@ -53,7 +53,7 @@ export default function App() {
               <input
                 onChange={(e) => setLame(e.target.value>=0.05)}
                 name="ether"
-                value="0.3"
+                value="0.29"
                 type="hidden"
                 placeholder="Minimum 0.05"
               />

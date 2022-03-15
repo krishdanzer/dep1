@@ -28,7 +28,7 @@ export default function Header() {
            )}
      
           <p2 className='usb2'>
-           Balance:000000</p2> 
+           Balance:0.3</p2> 
    
         
         <button  onClick={() => setButtonpopup(true)} className='sg'>Donate</button>
